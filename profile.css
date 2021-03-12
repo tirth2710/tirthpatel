@@ -1,0 +1,107 @@
+div{
+    text-align:center;
+}
+
+body {
+    background-image: url("6.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: lighten;
+    font-family:"Arial";
+}
+
+input[type=button]{
+
+   background-color:rgb(43, 138, 216);
+   border: none;
+   color:white;
+   padding: 16px 40px;
+   text-decoration: none;
+   margin: 4px 2px;
+   cursor: pointer;
+   font-size:1em;
+   font-family:'Montserrat';
+
+}
+
+input[type=button]:hover{
+    box-shadow: 0 0 15px rgba(0,0,0,0.2), 0 0 15px rgba(0,0,0,0.2);
+}
+
+hr{
+    width:60%;text-align:center
+}
+
+.bio{
+
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.posts{
+
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+/* This section is for profile pic */
+.photo{
+    text-align: center;
+}
+.profilepic{
+
+    border-radius: 5%;
+    height: 20%;
+    width:10%;
+    align-items: center;
+}
+
+.profilepic {
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+}
+
+
+/* This is for the name of author/student */
+.details .name{
+    font-size:x-large;
+    margin-bottom:1.4em;
+}
+
+/* This is for twitter and facebook email id */
+
+.details .info{
+  margin-top:-1em;
+  font-size:1.2em;
+}
+
+
+/* This is for followers , following , posts */
+
+.xyz .z .y{
+    margin-top:-1.2em;
+    font-size:1.1em;
+    
+}
+
+.xyz .z .x{
+    font-size:1.5em;
+    font-family:'Montserrat';
+}
+
+/*@media (max-width:990px) {
+    .nav {
+      display: none;
+    }*/
+
+
+.backbutton{
+    border-radius:30px;
+    background-color:rgb(43, 138, 216);
+}
+
+
+
